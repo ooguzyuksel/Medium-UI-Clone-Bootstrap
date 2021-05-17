@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+    margin-top: 4.5rem;
+}
+
+.main{
+    position: relative;
+    overflow: hidden;
+}
+
+.overf{
+    position: absolute;
+}
+
+.bg-medium-yellow {
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+
+.opac {
+  opacity: 0.2;
+}
