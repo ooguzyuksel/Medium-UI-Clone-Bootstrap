@@ -25,3 +25,46 @@ body{
 .opac {
   opacity: 0.2;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+  .responsive {
+    width: 12rem;
+    margin-left: -6rem;
+    margin-top: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .text-responsive {
+   font-size: 3rem;
+  }
+  .responsive {
+    margin-top: 15px;
+    padding: 20px;
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .text-responsive {
+   font-size: 3rem;
+  }
+  .responsive {
+    margin-top: 10px;
+    margin-left: rem;
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 414px) and (max-width:) {
+  .text-responsive {
+   font-size: 2.5rem;
+  }
+  .responsive {
+    margin-top: 10px;
+    margin-left: -3rem;
+    width: 10rem;
+  }
+}
